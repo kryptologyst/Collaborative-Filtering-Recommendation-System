@@ -1,0 +1,18 @@
+Model: SVD
+==================================================
+precision@5: 0.0085
+recall@5: 0.0204
+ndcg@5: 0.0130
+map@5: 0.0075
+hit_rate@5: 0.0424
+precision@10: 0.0080
+recall@10: 0.0349
+ndcg@10: 0.0190
+map@10: 0.0095
+hit_rate@10: 0.0777
+precision@20: 0.0077
+recall@20: 0.0649
+ndcg@20: 0.0286
+map@20: 0.0116
+hit_rate@20: 0.1437
+coverage: 0.9384

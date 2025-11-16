@@ -1,0 +1,18 @@
+Model: Matrix Factorization
+==================================================
+precision@5: 0.0085
+recall@5: 0.0199
+ndcg@5: 0.0141
+map@5: 0.0086
+hit_rate@5: 0.0424
+precision@10: 0.0085
+recall@10: 0.0382
+ndcg@10: 0.0215
+map@10: 0.0110
+hit_rate@10: 0.0836
+precision@20: 0.0090
+recall@20: 0.0840
+ndcg@20: 0.0356
+map@20: 0.0144
+hit_rate@20: 0.1708
+coverage: 0.7311

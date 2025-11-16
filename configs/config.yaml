@@ -1,0 +1,39 @@
+# Model configurations
+models:
+  user_based_cf:
+    min_similarity: 0.1
+    min_common_items: 2
+    
+  item_based_cf:
+    min_similarity: 0.1
+    min_common_users: 2
+    
+  matrix_factorization:
+    factors: 50
+    regularization: 0.01
+    iterations: 20
+    
+  svd:
+    n_factors: 100
+    n_epochs: 20
+    lr_all: 0.005
+    reg_all: 0.02
+
+# Dataset configuration
+dataset:
+  n_users: 1000
+  n_items: 500
+  n_interactions: 10000
+  rating_range: [1.0, 5.0]
+  sparsity: 0.95
+
+# Evaluation configuration
+evaluation:
+  k_values: [5, 10, 20]
+  test_size: 0.2
+  random_state: 42
+
+# Demo configuration
+demo:
+  default_n_recommendations: 10
+  max_recommendations: 50

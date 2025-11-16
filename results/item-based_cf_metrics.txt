@@ -1,0 +1,18 @@
+Model: Item-based CF
+==================================================
+precision@5: 0.0061
+recall@5: 0.0137
+ndcg@5: 0.0107
+map@5: 0.0071
+hit_rate@5: 0.0306
+precision@10: 0.0046
+recall@10: 0.0204
+ndcg@10: 0.0132
+map@10: 0.0080
+hit_rate@10: 0.0436
+precision@20: 0.0042
+recall@20: 0.0401
+ndcg@20: 0.0191
+map@20: 0.0093
+hit_rate@20: 0.0824
+coverage: 1.2045
